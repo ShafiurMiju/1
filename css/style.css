@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #02baf2;
+}
+
+body{
+    background-color: #EFEFEF;
+}
+
+.container{
+    position: absolute;
+    width: 75%;
+    max-width: 350px;
+    background: #FFF;
+    left: 0;
+    right: 0;
+    top: 200px;
+    margin: auto;
+    border: 1px solid #E0E0E0;
+    text-align: center;
+    padding: 15px;
+}
+
+.logo-part{
+    display: flex;
+    padding: 5px 6px;
+    margin-bottom: 0px 5px;
+}
+
+.logo{
+    width: 33.33%;
+    height: 100%;
+    object-fit: cover;
+    padding-right: 10px;
+}
+
+.uni-name {
+    padding-left: 10px;
+}
+
+.uni-name p{
+    font-size: 15px;
+    line-height: 1.5rem;
+    color: #364347;
+    padding: 5px 0;
+    text-align: end;
+    padding-left: 10px;
+}
+
+.uni-name span{
+    font-size: 13px;
+    line-height: 1.5rem;
+    color: #878888;
+}
+
+.form-part{
+    margin: 10px 0;
+}
+
+.form-part p{
+    padding: 5px 0 30px 0;
+    font-size: 14px;
+    
+}
+
+form input{
+    border: 2px solid #d1edf1;
+    padding: 0 10px;
+    min-height: 36px;
+    box-shadow: none;
+    color: #494949;
+    border-radius: 2px;
+    line-height: 14px;
+    font-size: 14px;
+}
+
+form span{
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.pass{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.btn{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.btn button{
+    width: 100%;
+    min-height: 38px;
+    color: #FFF;
+    background-color: #094F9F;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 770px){
+    .logo-part{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding-right: 0px;
+    }
+    
+    .uni-name {
+        padding-left: 0px;
+    }
+    
+    .uni-name p{
+        font-size: 15px;
+        line-height: 1.5rem;
+        color: #364347;
+        padding: 5px 0;
+        text-align: center;
+        padding-left: 0px;
+    }
+}
